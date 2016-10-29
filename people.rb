@@ -16,4 +16,4 @@ people_two = People.new
 people_three = People.new name: 'Hermione', last_name: 'Granger'
 people_four = People.new name: 'Ron', last_name: 'Weasley'
 
-people_two.say "#{people_one.name} sucks!"
+people_two.say message: "#{people_one.name} sucks!"
